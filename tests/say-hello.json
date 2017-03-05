@@ -1,12 +1,19 @@
 {
-	"machine": "say-hello",
-	"expectations": [
-		{
-			"using": {
-				"email": "hello" 
-			},
-			"outcome": "wrongEmailFormat"
-		},
-
-	]
+  "machine": "say-hello",
+  "expectations": [
+    {
+      "using": {
+        "name": "Hesham Adel", 
+        "email": "example@example.com"
+      },
+      "outcome": "success"
+    },
+    {
+      "using": {
+        "name": "Hesham Adel", 
+        "email": "example"
+      },
+      "outcome": "wrongEmailFormat"
+    }
+  ]
 }
