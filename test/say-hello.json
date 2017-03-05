@@ -1,0 +1,12 @@
+{
+	"machine": "say-hello",
+	"expectations": [
+		{
+			"using": {
+				"email": "hello" 
+			},
+			"outcome": "wrongEmailFormat"
+		},
+
+	]
+}
